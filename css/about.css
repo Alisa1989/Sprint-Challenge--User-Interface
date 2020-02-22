@@ -1,0 +1,81 @@
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    text-align: start;
+}
+
+body {
+    padding: 0% 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    align-items: baseline;
+    padding: 2% 10% 5% 0%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border-bottom: dotted 1px;
+    padding: 5px 20px;
+}
+
+.main-image {
+    background-size: cover;
+}
+
+.container-about-page {
+    /* display: flex; */
+}
+
+
+.first-row {
+    display: flex;
+    justify-content: center;
+}
+
+.second-row {
+    display: flex;
+    justify-content: center;
+}
+
+.quartet {
+    display: flex;
+    flex-direction: column;
+
+    width: 48%;
+    border-bottom: dotted 1px;
+    margin: 20px;
+}
+button {
+    margin: 0px 0px 15px 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid 2px;
+    background: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    
+    border: solid 3px;
+    background: black;
+    height: 40px;
+}
+
+.bottom-navs a {
+
+    text-decoration: none;
+    color: lightgrey;
+    font-size:  13px;
+    font-weight: bold;
+}
