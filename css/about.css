@@ -1,0 +1,108 @@
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    
+    text-align: start;
+}
+
+body {
+    /* padding: 0% 10%; */
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0 25%;
+}
+
+.navigation nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    align-items: baseline;
+    padding: 2% 10% 5% 0%;
+    
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border-bottom: dotted 1px;
+    padding: 5px 20px;
+}
+
+.main-image {
+    background-size: cover;
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+}
+
+.second-row {
+    display: flex;
+    justify-content: center;
+}
+
+.quartet {
+    display: flex;
+    flex-direction: column;
+
+    width: 48%;
+    border-bottom: dotted 1px;
+    margin: 20px;
+}
+button {
+    margin: 0px 0px 15px 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid 2px;
+    background: white;
+}
+
+footer {
+    
+    border: solid 3px;
+    background: black;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    
+}
+
+.bottom-navs a {
+
+    color: white;
+    font-size:  13px;
+
+}
+
+.bottom-navs {
+    display: flex;
+    justify-content: space-between;
+
+    width: 800px;
+    
+    padding: 0 20% 0 0;
+
+    /* align-content: center; */
+    /* align-items: baseline; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size:  13px;
+    /* padding: 10%; */
+
+
+}
