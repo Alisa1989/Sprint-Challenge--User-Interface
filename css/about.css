@@ -39,11 +39,6 @@ body {
     background-size: cover;
 }
 
-.container-about-page {
-    /* display: flex; */
-}
-
-
 .first-row {
     display: flex;
     justify-content: center;
